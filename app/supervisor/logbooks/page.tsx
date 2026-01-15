@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import { DashboardLayout } from "@/components/layout/dashboard-layout";
 import { ConfirmDialog } from "@/components/ui/confirm-dialog";
-import Header from "../../../components/supervisor/logbooks/header";
+import Header from "../../../components/supervisor/header";
 import Stats from "@/components/supervisor/logbooks/stats";
 import { allLogbookEntries } from "@/components/supervisor/logbooks/data";
 import {
@@ -42,7 +42,10 @@ export default function SupervisorLogbooks() {
       userEmail="ngozi.adebayo@university.edu"
     >
       <div className="space-y-6">
-        <Header />
+        <Header
+          heading="Logbook Reviews"
+          subtitle="Review and approve student logbook entries"
+        />
 
         <Stats
           allLogbookEntries={allLogbookEntries}
