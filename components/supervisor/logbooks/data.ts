@@ -1,0 +1,108 @@
+import { LogBookEntry } from "./types";
+
+export const allLogbookEntries: LogBookEntry[] = [
+  {
+    id: "1",
+    student_id: "user-1",
+    student_name: "Adewale Johnson",
+    student_matric: "2020/123456",
+    entry_date: "2024-02-12",
+    activity_summary:
+      "Worked on the user authentication module. Implemented login and registration functionality using React and Node.js.",
+    hours_worked: 8,
+    skills_learned: "JWT Authentication, React Hooks",
+    challenges: "OAuth flow complexity",
+    status: "pending" as const,
+  },
+  {
+    id: "2",
+    student_id: "user-3",
+    student_name: "Ibrahim Musa",
+    student_matric: "2020/123458",
+    entry_date: "2024-02-12",
+    activity_summary:
+      "Electrical installation and safety testing for the new manufacturing unit. Conducted wire sizing calculations.",
+    hours_worked: 7,
+    skills_learned: "Industrial Electrical Systems, Safety Protocols",
+    challenges: null,
+    status: "pending" as const,
+  },
+  {
+    id: "3",
+    student_id: "user-4",
+    student_name: "Fatima Ahmed",
+    student_matric: "2020/123459",
+    entry_date: "2024-02-12",
+    activity_summary:
+      "Network infrastructure audit and documentation. Created network topology diagrams for the data center.",
+    hours_worked: 8,
+    skills_learned: "Network Documentation, Visio Diagrams",
+    challenges: null,
+    status: "pending" as const,
+  },
+  {
+    id: "4",
+    student_id: "user-1",
+    student_name: "Adewale Johnson",
+    student_matric: "2020/123456",
+    entry_date: "2024-02-11",
+    activity_summary:
+      "Dashboard UI development and component library creation. Built reusable React components.",
+    hours_worked: 7,
+    skills_learned: "React Components, Tailwind CSS",
+    challenges: null,
+    status: "approved" as const,
+  },
+  {
+    id: "5",
+    student_id: "user-6",
+    student_name: "Amina Bello",
+    student_matric: "2020/123461",
+    entry_date: "2024-02-11",
+    activity_summary:
+      "Quality control procedures in the production line. Tested sample products for compliance.",
+    hours_worked: 6,
+    skills_learned: "QC Procedures, Documentation",
+    challenges: "Calibration issues with testing equipment",
+    status: "pending" as const,
+  },
+  {
+    id: "6",
+    student_id: "user-8",
+    student_name: "Grace Eze",
+    student_matric: "2020/123463",
+    entry_date: "2024-02-11",
+    activity_summary:
+      "Microbial analysis and culture preparation. Conducted gram staining and microscopy.",
+    hours_worked: 8,
+    skills_learned: "Microbiology Techniques, Lab Safety",
+    challenges: null,
+    status: "pending" as const,
+  },
+  {
+    id: "7",
+    student_id: "user-2",
+    student_name: "Chioma Okonkwo",
+    student_matric: "2020/123457",
+    entry_date: "2024-02-10",
+    activity_summary:
+      "Banking software testing and bug reporting. Wrote test cases for transaction modules.",
+    hours_worked: 8,
+    skills_learned: "Software Testing, Bug Tracking",
+    challenges: null,
+    status: "approved" as const,
+  },
+  {
+    id: "8",
+    student_id: "user-3",
+    student_name: "Ibrahim Musa",
+    student_matric: "2020/123458",
+    entry_date: "2024-02-10",
+    activity_summary:
+      "PLC programming and industrial automation training. Wrote ladder logic programs.",
+    hours_worked: 7,
+    skills_learned: "PLC Programming, Industrial Automation",
+    challenges: "Understanding complex timing sequences",
+    status: "rejected" as const,
+  },
+];
